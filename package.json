@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "react": "15.3.2",
-    "react-native": "0.37.0"
+    "react-mixin": "^2.0.2",
+    "react-native": "0.37.0",
+    "react-timer-mixin": "^0.13.3"
   },
   "jest": {
     "preset": "jest-react-native"

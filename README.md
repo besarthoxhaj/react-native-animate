@@ -89,9 +89,16 @@ export default class SimpleInterpolation extends Component {
 
 [Source Code](https://github.com/facebook/react-native/blob/9ee815f6b52e0c2417c04e5a05e1e31df26daed2/Libraries/Animated/src/AnimatedImplementation.js#L1810). Spring
 
+### Library of animations
+
+- http://digitalsynopsis.com/design/loading-animations-preloader-gifs-ui-ux-effects/
+
 ### References
 
 - https://github.com/browniefed/react-native-animation-book
 - https://github.com/oblador/react-native-animatable
 - https://gist.github.com/Jpoliachik/0dd83689646d1051b0bc
 - https://github.com/dabit3/react-native-animations
+- http://xaedes.de/dev/transitions/
+- https://scotch.io
+- https://css-tricks.com/examples/ShapesOfCSS/

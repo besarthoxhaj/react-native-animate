@@ -12,10 +12,7 @@ export default class Spring extends Component {
   render() {
     return (
       <Animated.View style={{
-        top:this.state.animationValue.interpolate({
-          inputRange:[0,1],
-          outputRange:[-500,0]
-        }),
+        top:this.state.animationValue,
         width:150,
         height:150,
         backgroundColor:'rgba(255,0,0,1)',
@@ -23,6 +20,7 @@ export default class Spring extends Component {
     );
   }
   componentDidMount() {
-    Animated.spring(this.state.animationValue,{toValue:1,duration:5000}).start();
+    this.state.animationValue.setValue(-500);
+    Animated.spring(this.state.animationValue,{toValue:0}).start();
   }
 }
