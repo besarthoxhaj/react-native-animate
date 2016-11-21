@@ -2,6 +2,8 @@
 
 A set of React Native animations.
 
+![react-native-animation](https://cloud.githubusercontent.com/assets/7887496/20483310/477b6920-afe9-11e6-9814-00156dfbf04a.gif)
+
 ### Run
 
 ```
